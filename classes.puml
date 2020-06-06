@@ -22,6 +22,10 @@ class AlertaRelativo {
   + string: getTempoRestante()
 }
 
+class AlertaAbsolutoNovo {
+  + ajustar(hor)
+  constructor(desc, hor)
+}
 class NovaClasse {
 
 }
