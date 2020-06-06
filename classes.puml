@@ -17,7 +17,7 @@ class AlertaRelativo {
   + string: getTempoRestante()
 }
 
-class AlertaAbsoluto {
+class AlertaAbsolutoNovo {
   + ajustar(hor)
   constructor(desc, hor)
 }
