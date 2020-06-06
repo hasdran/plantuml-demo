@@ -1,7 +1,10 @@
 @startuml "Classes"
 
 top to bottom direction
-
+class Teste <<abstract>> {
+  - number id
+  + cancelar()
+}
 class Alerta <<abstract>> {
   - number timerHandler
   + Date horario
@@ -9,6 +12,7 @@ class Alerta <<abstract>> {
   + string descricao
   + cancelar()
 }
+
 note left of Alerta : Alerta programado.\n\nPossui uma descrição que é\nexibida com a conclusão do\ntimer, na forma de um alerta.
 
 class AlertaRelativo {
